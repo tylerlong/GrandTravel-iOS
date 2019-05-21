@@ -38,18 +38,28 @@ GRAND TRAVEL</string>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GaK-zg-T5d">
+                    <rect key="frame" x="64" y="381" width="342" height="203"/>
+                    <string key="text">Steve Howe and Bruce Dickinson, Grand Travel’s founders and avid travelers, recognized the challenges associated with the increasing complexity of travel and its impact on the recreational traveler. They also recognized that a proactive approach to travel management was the only true way to minimize any potential disruptions to a travelers itinerary. A hands on boutique travel service was born.</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="3Kw-Xm-qd6" firstAttribute="top" secondItem="kl7-eU-3Sk" secondAttribute="bottom" constant="64" id="08c-Fm-T8S"/>
                 <constraint firstItem="kl7-eU-3Sk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="64" id="7tN-k7-FDL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VXu-aP-SgA" secondAttribute="trailing" id="CoJ-xJ-SqL"/>
+                <constraint firstItem="GaK-zg-T5d" firstAttribute="top" secondItem="3Kw-Xm-qd6" secondAttribute="bottom" constant="64" id="F4p-3O-Z3W"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="VXu-aP-SgA" secondAttribute="bottom" id="F5U-Xb-ctm"/>
                 <constraint firstItem="VXu-aP-SgA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Np3-Jn-Lkk"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3Kw-Xm-qd6" secondAttribute="trailing" constant="8" id="OM9-rg-zYf"/>
                 <constraint firstItem="VXu-aP-SgA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QKI-GZ-Pdi"/>
                 <constraint firstItem="kl7-eU-3Sk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="YWa-l9-j9L"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kl7-eU-3Sk" secondAttribute="trailing" id="hV7-aE-1tY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GaK-zg-T5d" secondAttribute="trailing" constant="8" id="iMR-gm-ht8"/>
+                <constraint firstItem="GaK-zg-T5d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="64" id="pKB-Nt-EJi"/>
                 <constraint firstItem="3Kw-Xm-qd6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="64" id="we8-ql-7l4"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
