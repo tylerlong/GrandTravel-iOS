@@ -20,11 +20,12 @@
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Home-background" translatesAutoresizingMaskIntoConstraints="NO" id="ANp-ki-rLB">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Home-background" translatesAutoresizingMaskIntoConstraints="NO" id="ANp-ki-rLB">
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EXPLORING THE WORLD YOUR WAY" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvM-XL-wK4">
-                    <rect key="frame" x="0.0" y="436" width="414" height="24"/>
+                    <rect key="frame" x="0.0" y="172" width="414" height="24"/>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
@@ -32,14 +33,9 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="ANp-ki-rLB" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="0QP-LZ-2BK"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="ANp-ki-rLB" secondAttribute="bottom" id="7Tv-Tb-qou"/>
-                <constraint firstItem="pvM-XL-wK4" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="B8v-dX-Ypo"/>
-                <constraint firstItem="pvM-XL-wK4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="DiY-gV-9Wj"/>
-                <constraint firstItem="ANp-ki-rLB" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Nao-UY-68q"/>
-                <constraint firstAttribute="trailing" secondItem="pvM-XL-wK4" secondAttribute="trailing" id="OTm-eC-m3D"/>
-                <constraint firstItem="pvM-XL-wK4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="RAF-4K-8em"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="ANp-ki-rLB" secondAttribute="trailing" id="zxZ-Nu-ZQh"/>
+                <constraint firstItem="pvM-XL-wK4" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="128" id="L7Y-lO-aGw"/>
+                <constraint firstItem="pvM-XL-wK4" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Uri-xQ-S5o"/>
+                <constraint firstItem="pvM-XL-wK4" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="pTL-0p-XZA"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="137.68115942028987" y="98.4375"/>
