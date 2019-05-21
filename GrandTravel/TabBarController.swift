@@ -13,13 +13,13 @@ class TabBarController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let viewController1 = ViewController1()
-        viewController1.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "Bank"), selectedImage: UIImage(named: "BankSelected"))
+        viewController1.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "Home"), selectedImage: UIImage(named: "Home"))
         let viewController2 = ViewController1()
-        viewController2.tabBarItem = UITabBarItem(title: "Tours", image: UIImage(named: "Bank"), selectedImage: UIImage(named: "BankSelected"))
+        viewController2.tabBarItem = UITabBarItem(title: "About", image: UIImage(named: "About"), selectedImage: UIImage(named: "About"))
         let viewController3 = ViewController1()
-        viewController3.tabBarItem = UITabBarItem(title: "Contact US", image: UIImage(named: "Bank"), selectedImage: UIImage(named: "BankSelected"))
+        viewController3.tabBarItem = UITabBarItem(title: "Tours", image: UIImage(named: "Tours"), selectedImage: UIImage(named: "Tours"))
         let viewController4 = ViewController1()
-        viewController4.tabBarItem = UITabBarItem(title: "About", image: UIImage(named: "Bank"), selectedImage: UIImage(named: "BankSelected"))
+        viewController4.tabBarItem = UITabBarItem(title: "Contact", image: UIImage(named: "Contact"), selectedImage: UIImage(named: "Contact"))
 
         viewControllers = [viewController1, viewController2, viewController3, viewController4]
 
