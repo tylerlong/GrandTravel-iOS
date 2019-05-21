@@ -7,8 +7,24 @@
 //
 
 import UIKit
+import Dimelo
+import Keys
 
-class TabBarController: UITabBarController {
+class TabBarController: UITabBarController, DimeloDelegate, UITabBarControllerDelegate {
+    
+    var dimelo: Dimelo?
+
+    func dimeloDisplayChatViewController(_ dimelo: Dimelo!) {
+        self.selectedIndex = tabBar.items!.count - 1
+    }
+
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController)
+    {
+        if(self.selectedIndex == tabBar.items!.count - 1)
+        {
+            self.becomeFirstResponder()
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,12 +36,16 @@ class TabBarController: UITabBarController {
         viewController3.tabBarItem = UITabBarItem(title: "Tours", image: UIImage(named: "Tours"), selectedImage: UIImage(named: "Tours"))
         let viewController4 = ViewController1()
         viewController4.tabBarItem = UITabBarItem(title: "Contact", image: UIImage(named: "Contact"), selectedImage: UIImage(named: "Contact"))
+        
+        let keys = GrandTravelKeys()
+        dimelo = Dimelo(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)!
+        let viewController5 = dimelo!.chatViewController()!
+        viewController5.tabBarItem = UITabBarItem(title: "Chat", image: UIImage(named: "Chat"), selectedImage: UIImage(named: "Chat"))
 
-        viewControllers = [viewController1, viewController2, viewController3, viewController4]
+        viewControllers = [viewController1, viewController2, viewController3, viewController4, viewController5]
 
         // Do any additional setup after loading the view.
     }
-    
 
     /*
     // MARK: - Navigation

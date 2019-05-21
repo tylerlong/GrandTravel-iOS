@@ -1,12 +1,16 @@
 PODS:
   - Dimelo-iOS (1.9.1)
+  - Keys (1.0.1)
 
 DEPENDENCIES:
   - Dimelo-iOS (from `https://github.com/dimelo/Dimelo-iOS.git`)
+  - Keys (from `Pods/CocoaPodsKeys`)
 
 EXTERNAL SOURCES:
   Dimelo-iOS:
     :git: https://github.com/dimelo/Dimelo-iOS.git
+  Keys:
+    :path: Pods/CocoaPodsKeys
 
 CHECKOUT OPTIONS:
   Dimelo-iOS:
@@ -15,7 +19,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   Dimelo-iOS: 14ab38410e99162db8d50e482de1dd6fb3ad33f9
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
 
-PODFILE CHECKSUM: d04bea9eeece6ecc1e3d455d572261a929c70e3d
+PODFILE CHECKSUM: 85a3e89c9954fcfafb8ea082361eaeb09b21b3a7
 
 COCOAPODS: 1.6.2

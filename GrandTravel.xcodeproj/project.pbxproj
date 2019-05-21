@@ -197,12 +197,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-GrandTravel/Pods-GrandTravel-frameworks.sh",
 				"${PODS_ROOT}/Dimelo-iOS/Dimelo.framework",
+				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dimelo.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

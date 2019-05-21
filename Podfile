@@ -9,3 +9,11 @@ target 'GrandTravel' do
   pod 'Dimelo-iOS', :git => 'https://github.com/dimelo/Dimelo-iOS.git'
 
 end
+
+plugin 'cocoapods-keys', {
+  :project => "GrandTravel",
+  :keys => [
+    "dimeloApiSecret",
+    "dimeloDomainName",
+  ]
+}
