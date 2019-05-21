@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		875C904222932DAC00B12A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C904122932DAC00B12A8A /* AppDelegate.swift */; };
-		875C904422932DAC00B12A8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C904322932DAC00B12A8A /* ViewController.swift */; };
 		875C904722932DAC00B12A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875C904522932DAC00B12A8A /* Main.storyboard */; };
 		875C904922932DAD00B12A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875C904822932DAD00B12A8A /* Assets.xcassets */; };
 		875C904C22932DAD00B12A8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875C904A22932DAD00B12A8A /* LaunchScreen.storyboard */; };
+		875C905422932F0C00B12A8A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C905322932F0C00B12A8A /* TabBarController.swift */; };
+		875C905722932F5300B12A8A /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C905522932F5300B12A8A /* ViewController1.swift */; };
+		875C905822932F5300B12A8A /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875C905622932F5300B12A8A /* ViewController1.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		875C903E22932DAC00B12A8A /* GrandTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C904122932DAC00B12A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		875C904322932DAC00B12A8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		875C904622932DAC00B12A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		875C904822932DAD00B12A8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		875C904B22932DAD00B12A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		875C904D22932DAD00B12A8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		875C905322932F0C00B12A8A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		875C905522932F5300B12A8A /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		875C905622932F5300B12A8A /* ViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				875C904122932DAC00B12A8A /* AppDelegate.swift */,
-				875C904322932DAC00B12A8A /* ViewController.swift */,
 				875C904522932DAC00B12A8A /* Main.storyboard */,
 				875C904822932DAD00B12A8A /* Assets.xcassets */,
 				875C904A22932DAD00B12A8A /* LaunchScreen.storyboard */,
 				875C904D22932DAD00B12A8A /* Info.plist */,
+				875C905322932F0C00B12A8A /* TabBarController.swift */,
+				875C905522932F5300B12A8A /* ViewController1.swift */,
+				875C905622932F5300B12A8A /* ViewController1.xib */,
 			);
 			path = GrandTravel;
 			sourceTree = "<group>";
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875C905822932F5300B12A8A /* ViewController1.xib in Resources */,
 				875C904C22932DAD00B12A8A /* LaunchScreen.storyboard in Resources */,
 				875C904922932DAD00B12A8A /* Assets.xcassets in Resources */,
 				875C904722932DAC00B12A8A /* Main.storyboard in Resources */,
@@ -135,8 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				875C904422932DAC00B12A8A /* ViewController.swift in Sources */,
+				875C905722932F5300B12A8A /* ViewController1.swift in Sources */,
 				875C904222932DAC00B12A8A /* AppDelegate.swift in Sources */,
+				875C905422932F0C00B12A8A /* TabBarController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +290,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GrandTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -290,6 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ringcentral.GrandTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,7 +309,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = GrandTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -307,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ringcentral.GrandTravel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
