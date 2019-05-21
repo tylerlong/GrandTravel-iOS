@@ -23,11 +23,11 @@
                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="About-background" translatesAutoresizingMaskIntoConstraints="NO" id="VXu-aP-SgA">
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                 </imageView>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kl7-eU-3Sk">
-                    <rect key="frame" x="0.0" y="108" width="406" height="24"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kl7-eU-3Sk">
+                    <rect key="frame" x="0.0" y="108" width="414" height="25.5"/>
                     <string key="text">A BRIEF HISTORY OF GRAND TRAVEL
 GRAND TRAVEL</string>
-                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="20"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
@@ -40,7 +40,7 @@ GRAND TRAVEL</string>
                 <constraint firstItem="VXu-aP-SgA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Np3-Jn-Lkk"/>
                 <constraint firstItem="VXu-aP-SgA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QKI-GZ-Pdi"/>
                 <constraint firstItem="kl7-eU-3Sk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="YWa-l9-j9L"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kl7-eU-3Sk" secondAttribute="trailing" constant="8" id="hV7-aE-1tY"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kl7-eU-3Sk" secondAttribute="trailing" id="hV7-aE-1tY"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
