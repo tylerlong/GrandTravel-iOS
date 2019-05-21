@@ -31,16 +31,26 @@ GRAND TRAVEL</string>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Kw-Xm-qd6">
+                    <rect key="frame" x="64" y="197.5" width="342" height="119.5"/>
+                    <string key="text">Grand Travel was founded in 1981 in Belmont, CA with the mission of providing a better travel experience at unbeatable prices to its customers.</string>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="3Kw-Xm-qd6" firstAttribute="top" secondItem="kl7-eU-3Sk" secondAttribute="bottom" constant="64" id="08c-Fm-T8S"/>
                 <constraint firstItem="kl7-eU-3Sk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="64" id="7tN-k7-FDL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VXu-aP-SgA" secondAttribute="trailing" id="CoJ-xJ-SqL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="VXu-aP-SgA" secondAttribute="bottom" id="F5U-Xb-ctm"/>
                 <constraint firstItem="VXu-aP-SgA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Np3-Jn-Lkk"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3Kw-Xm-qd6" secondAttribute="trailing" constant="8" id="OM9-rg-zYf"/>
                 <constraint firstItem="VXu-aP-SgA" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QKI-GZ-Pdi"/>
                 <constraint firstItem="kl7-eU-3Sk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="YWa-l9-j9L"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="kl7-eU-3Sk" secondAttribute="trailing" id="hV7-aE-1tY"/>
+                <constraint firstItem="3Kw-Xm-qd6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="64" id="we8-ql-7l4"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
