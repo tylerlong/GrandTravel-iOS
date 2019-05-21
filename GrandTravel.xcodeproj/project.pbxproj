@@ -14,6 +14,12 @@
 		875C905422932F0C00B12A8A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C905322932F0C00B12A8A /* TabBarController.swift */; };
 		875C905722932F5300B12A8A /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C905522932F5300B12A8A /* ViewController1.swift */; };
 		875C905822932F5300B12A8A /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875C905622932F5300B12A8A /* ViewController1.xib */; };
+		875C905B2293926700B12A8A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C90592293926700B12A8A /* ViewController2.swift */; };
+		875C905C2293926700B12A8A /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875C905A2293926700B12A8A /* ViewController2.xib */; };
+		875C905F2293935D00B12A8A /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C905D2293935D00B12A8A /* ViewController3.swift */; };
+		875C90602293935D00B12A8A /* ViewController3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875C905E2293935D00B12A8A /* ViewController3.xib */; };
+		875C90632293936D00B12A8A /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C90612293936D00B12A8A /* ViewController4.swift */; };
+		875C90642293936D00B12A8A /* ViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875C90622293936D00B12A8A /* ViewController4.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		875C905322932F0C00B12A8A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		875C905522932F5300B12A8A /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
 		875C905622932F5300B12A8A /* ViewController1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+		875C90592293926700B12A8A /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		875C905A2293926700B12A8A /* ViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		875C905D2293935D00B12A8A /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		875C905E2293935D00B12A8A /* ViewController3.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController3.xib; sourceTree = "<group>"; };
+		875C90612293936D00B12A8A /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
+		875C90622293936D00B12A8A /* ViewController4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController4.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +78,12 @@
 				875C905322932F0C00B12A8A /* TabBarController.swift */,
 				875C905522932F5300B12A8A /* ViewController1.swift */,
 				875C905622932F5300B12A8A /* ViewController1.xib */,
+				875C90592293926700B12A8A /* ViewController2.swift */,
+				875C905A2293926700B12A8A /* ViewController2.xib */,
+				875C905D2293935D00B12A8A /* ViewController3.swift */,
+				875C905E2293935D00B12A8A /* ViewController3.xib */,
+				875C90612293936D00B12A8A /* ViewController4.swift */,
+				875C90622293936D00B12A8A /* ViewController4.xib */,
 			);
 			path = GrandTravel;
 			sourceTree = "<group>";
@@ -128,8 +146,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875C90602293935D00B12A8A /* ViewController3.xib in Resources */,
+				875C905C2293926700B12A8A /* ViewController2.xib in Resources */,
 				875C905822932F5300B12A8A /* ViewController1.xib in Resources */,
 				875C904C22932DAD00B12A8A /* LaunchScreen.storyboard in Resources */,
+				875C90642293936D00B12A8A /* ViewController4.xib in Resources */,
 				875C904922932DAD00B12A8A /* Assets.xcassets in Resources */,
 				875C904722932DAC00B12A8A /* Main.storyboard in Resources */,
 			);
@@ -142,7 +163,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875C905F2293935D00B12A8A /* ViewController3.swift in Sources */,
+				875C90632293936D00B12A8A /* ViewController4.swift in Sources */,
 				875C905722932F5300B12A8A /* ViewController1.swift in Sources */,
+				875C905B2293926700B12A8A /* ViewController2.swift in Sources */,
 				875C904222932DAC00B12A8A /* AppDelegate.swift in Sources */,
 				875C905422932F0C00B12A8A /* TabBarController.swift in Sources */,
 			);

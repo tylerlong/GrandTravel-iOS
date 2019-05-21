@@ -14,8 +14,14 @@ class TabBarController: UITabBarController {
         super.viewDidLoad()
         let viewController1 = ViewController1()
         viewController1.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "Bank"), selectedImage: UIImage(named: "BankSelected"))
+        let viewController2 = ViewController1()
+        viewController2.tabBarItem = UITabBarItem(title: "Tours", image: UIImage(named: "Bank"), selectedImage: UIImage(named: "BankSelected"))
+        let viewController3 = ViewController1()
+        viewController3.tabBarItem = UITabBarItem(title: "Contact US", image: UIImage(named: "Bank"), selectedImage: UIImage(named: "BankSelected"))
+        let viewController4 = ViewController1()
+        viewController4.tabBarItem = UITabBarItem(title: "About", image: UIImage(named: "Bank"), selectedImage: UIImage(named: "BankSelected"))
 
-        viewControllers = [viewController1]
+        viewControllers = [viewController1, viewController2, viewController3, viewController4]
 
         // Do any additional setup after loading the view.
     }
