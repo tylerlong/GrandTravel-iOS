@@ -12,17 +12,23 @@ class TourViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var priceLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
     var imageName: String?
     var name: String?
+    var price: String?
+    var desc: String?
     
-    init(imageName: String, name: String) {
+    init(imageName: String, name: String, price: String, desc: String) {
         self.imageName = imageName
         self.name = name
+        self.price = price
+        self.desc = desc
         super.init(nibName: nil, bundle: nil)
     }
     
     convenience init() {
-        self.init(imageName: "tours-img-1", name: "French Autumn")
+        self.init(imageName: "tours-img-1", name: "French Autumn", price: "$1625.00", desc: "Spend your unforgettable autumn vacation in Paris – -you will enjoy its beauty and magic!")
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -34,6 +40,8 @@ class TourViewController: UIViewController {
         super.viewDidLoad()
         imageView.image = UIImage(named: imageName!)
         nameLabel.text = name
+        priceLabel.text = price
+        descriptionLabel.text = desc
         
 //        self.label.text = self.text
         // Do any additional setup after loading the view.
