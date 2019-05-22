@@ -21,6 +21,8 @@
 		875C90632293936D00B12A8A /* ViewController4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C90612293936D00B12A8A /* ViewController4.swift */; };
 		875C90642293936D00B12A8A /* ViewController4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875C90622293936D00B12A8A /* ViewController4.xib */; };
 		875C906622945D3400B12A8A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C906522945D3400B12A8A /* Utils.swift */; };
+		875C9069229501B000B12A8A /* TourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C9067229501B000B12A8A /* TourViewController.swift */; };
+		875C906A229501B000B12A8A /* TourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 875C9068229501B000B12A8A /* TourViewController.xib */; };
 		B25F3292887DE50AEAF4D3CB /* Pods_GrandTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30DD5171532E3ABC568496B /* Pods_GrandTravel.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +43,8 @@
 		875C90612293936D00B12A8A /* ViewController4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController4.swift; sourceTree = "<group>"; };
 		875C90622293936D00B12A8A /* ViewController4.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController4.xib; sourceTree = "<group>"; };
 		875C906522945D3400B12A8A /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		875C9067229501B000B12A8A /* TourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourViewController.swift; sourceTree = "<group>"; };
+		875C9068229501B000B12A8A /* TourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TourViewController.xib; sourceTree = "<group>"; };
 		D2A9FA1DCEE16323B2F8A875 /* Pods-GrandTravel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandTravel.release.xcconfig"; path = "Target Support Files/Pods-GrandTravel/Pods-GrandTravel.release.xcconfig"; sourceTree = "<group>"; };
 		D30DD5171532E3ABC568496B /* Pods_GrandTravel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GrandTravel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D64F1E829E1E035656FFB7C0 /* Pods-GrandTravel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandTravel.debug.xcconfig"; path = "Target Support Files/Pods-GrandTravel/Pods-GrandTravel.debug.xcconfig"; sourceTree = "<group>"; };
@@ -111,6 +115,8 @@
 				875C90612293936D00B12A8A /* ViewController4.swift */,
 				875C90622293936D00B12A8A /* ViewController4.xib */,
 				875C906522945D3400B12A8A /* Utils.swift */,
+				875C9067229501B000B12A8A /* TourViewController.swift */,
+				875C9068229501B000B12A8A /* TourViewController.xib */,
 			);
 			path = GrandTravel;
 			sourceTree = "<group>";
@@ -176,6 +182,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				875C906A229501B000B12A8A /* TourViewController.xib in Resources */,
 				875C90602293935D00B12A8A /* ViewController3.xib in Resources */,
 				875C905C2293926700B12A8A /* ViewController2.xib in Resources */,
 				875C905822932F5300B12A8A /* ViewController1.xib in Resources */,
@@ -272,6 +279,7 @@
 				875C90632293936D00B12A8A /* ViewController4.swift in Sources */,
 				875C905722932F5300B12A8A /* ViewController1.swift in Sources */,
 				875C906622945D3400B12A8A /* Utils.swift in Sources */,
+				875C9069229501B000B12A8A /* TourViewController.swift in Sources */,
 				875C905B2293926700B12A8A /* ViewController2.swift in Sources */,
 				875C904222932DAC00B12A8A /* AppDelegate.swift in Sources */,
 				875C905422932F0C00B12A8A /* TabBarController.swift in Sources */,

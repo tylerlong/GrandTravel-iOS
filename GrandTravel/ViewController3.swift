@@ -10,9 +10,25 @@ import UIKit
 
 class ViewController3: UIViewController {
 
+    @IBOutlet weak var stackView: UIStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        let view1 = TourViewController().view!
+        let view2 = TourViewController().view!
+        let view3 = TourViewController().view!
+        let view4 = TourViewController().view!
+        NSLayoutConstraint.activate([
+            view1.heightAnchor.constraint(equalToConstant: 256),
+            view2.heightAnchor.constraint(equalToConstant: 256),
+            view3.heightAnchor.constraint(equalToConstant: 256),
+            view4.heightAnchor.constraint(equalToConstant: 256),
+        ])
+        stackView.addArrangedSubview(view1)
+        stackView.addArrangedSubview(view2)
+        stackView.addArrangedSubview(view3)
+        stackView.addArrangedSubview(view4)
         // Do any additional setup after loading the view.
     }
 

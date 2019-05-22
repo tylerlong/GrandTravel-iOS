@@ -12,6 +12,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController3" customModule="GrandTravel" customModuleProvider="target">
             <connections>
+                <outlet property="stackView" destination="Veh-2S-vcI" id="im6-bf-Km1"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -19,7 +20,30 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MgZ-BL-6r2">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Veh-2S-vcI">
+                            <rect key="frame" x="0.0" y="309" width="414" height="200"/>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Veh-2S-vcI" firstAttribute="leading" secondItem="MgZ-BL-6r2" secondAttribute="leading" id="92e-dm-u6N"/>
+                        <constraint firstAttribute="trailing" secondItem="Veh-2S-vcI" secondAttribute="trailing" id="BaI-0u-MMg"/>
+                        <constraint firstItem="Veh-2S-vcI" firstAttribute="top" secondItem="MgZ-BL-6r2" secondAttribute="top" id="ubG-Wd-Ein"/>
+                        <constraint firstAttribute="bottom" secondItem="Veh-2S-vcI" secondAttribute="bottom" id="wtL-Oc-VO5"/>
+                        <constraint firstItem="Veh-2S-vcI" firstAttribute="width" secondItem="MgZ-BL-6r2" secondAttribute="width" id="zuM-sx-jnt"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="MgZ-BL-6r2" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="6Ld-c9-LAl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="MgZ-BL-6r2" secondAttribute="bottom" id="id9-2X-x22"/>
+                <constraint firstItem="MgZ-BL-6r2" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="rQ6-qM-SwB"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="MgZ-BL-6r2" secondAttribute="trailing" id="xrg-KB-FM8"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
