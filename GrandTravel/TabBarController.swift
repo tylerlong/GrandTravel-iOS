@@ -29,6 +29,8 @@ class TabBarController: UITabBarController, DimeloDelegate, UITabBarControllerDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.delegate = self
+        
 //        self.tabBar.barTintColor = UIColor(hex: "#56C9FFFF")
         
         let viewController1 = ViewController1()
