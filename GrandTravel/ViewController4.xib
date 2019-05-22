@@ -1,22 +1,96 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13142" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12042"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController4" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController4" customModule="GrandTravel" customModuleProvider="target">
             <connections>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Contact-background" translatesAutoresizingMaskIntoConstraints="NO" id="7q0-fF-d08">
+                    <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONTACT OR VISIT US" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="keD-bq-nvc">
+                    <rect key="frame" x="0.0" y="60" width="414" height="27"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5a-bc-9kJ">
+                    <rect key="frame" x="16" y="168" width="398" height="41"/>
+                    <string key="text">20 Davis Drive,
+Belmont, CA  94002</string>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tel: +1.720.405.9997" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tNE-JL-B3h">
+                    <rect key="frame" x="16" y="217" width="398" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SMS: +1.618.230.0003" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F0S-KH-tUF">
+                    <rect key="frame" x="16" y="246" width="398" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email: travel_info@ringcentraldemos.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVA-r6-SSB">
+                    <rect key="frame" x="16" y="275" width="398" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="We look forward to serving you as a valued customer!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zlo-pn-Yp0">
+                    <rect key="frame" x="16" y="119" width="398" height="41"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="F0S-KH-tUF" secondAttribute="trailing" id="3h4-bd-J0F"/>
+                <constraint firstItem="Zlo-pn-Yp0" firstAttribute="top" secondItem="keD-bq-nvc" secondAttribute="bottom" constant="32" id="4y9-iP-B8o"/>
+                <constraint firstItem="F0S-KH-tUF" firstAttribute="top" secondItem="tNE-JL-B3h" secondAttribute="bottom" constant="8" id="6K7-0D-lCm"/>
+                <constraint firstItem="F0S-KH-tUF" firstAttribute="leading" secondItem="Zlo-pn-Yp0" secondAttribute="leading" id="6tt-6q-dj1"/>
+                <constraint firstItem="tNE-JL-B3h" firstAttribute="top" secondItem="X5a-bc-9kJ" secondAttribute="bottom" constant="8" id="7Wd-CF-6uE"/>
+                <constraint firstItem="keD-bq-nvc" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="GIM-7L-VLg"/>
+                <constraint firstItem="IVA-r6-SSB" firstAttribute="leading" secondItem="Zlo-pn-Yp0" secondAttribute="leading" id="LGj-XP-3df"/>
+                <constraint firstItem="X5a-bc-9kJ" firstAttribute="top" secondItem="Zlo-pn-Yp0" secondAttribute="bottom" constant="8" id="MBw-iK-3uJ"/>
+                <constraint firstItem="7q0-fF-d08" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="RcO-US-Pta"/>
+                <constraint firstItem="Zlo-pn-Yp0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="VVN-IY-jhm"/>
+                <constraint firstItem="keD-bq-nvc" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="WMF-Iw-ngW"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="X5a-bc-9kJ" secondAttribute="trailing" id="YtG-Fv-6pA"/>
+                <constraint firstItem="IVA-r6-SSB" firstAttribute="top" secondItem="F0S-KH-tUF" secondAttribute="bottom" constant="8" id="bvy-HK-Knt"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Zlo-pn-Yp0" secondAttribute="trailing" id="gte-y5-Teu"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="tNE-JL-B3h" secondAttribute="trailing" id="hiz-4Z-2TO"/>
+                <constraint firstItem="7q0-fF-d08" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jAI-1r-lD1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="7q0-fF-d08" secondAttribute="bottom" id="orb-bu-In3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="IVA-r6-SSB" secondAttribute="trailing" id="uIb-St-jUp"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="keD-bq-nvc" secondAttribute="trailing" id="uuA-4c-zbb"/>
+                <constraint firstItem="tNE-JL-B3h" firstAttribute="leading" secondItem="Zlo-pn-Yp0" secondAttribute="leading" id="uzp-8w-XWZ"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="7q0-fF-d08" secondAttribute="trailing" id="wDa-PC-XWv"/>
+                <constraint firstItem="X5a-bc-9kJ" firstAttribute="leading" secondItem="Zlo-pn-Yp0" secondAttribute="leading" id="wKm-Cb-aQo"/>
+            </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
         </view>
     </objects>
+    <resources>
+        <image name="Contact-background" width="561" height="402"/>
+    </resources>
 </document>
