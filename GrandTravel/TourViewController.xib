@@ -13,6 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TourViewController" customModule="GrandTravel" customModuleProvider="target">
             <connections>
                 <outlet property="imageView" destination="LSa-uR-oXx" id="YP3-J1-zBL"/>
+                <outlet property="nameLabel" destination="aI3-vx-nyR" id="CsN-tW-Eiw"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -27,10 +28,19 @@
                         <constraint firstAttribute="height" constant="256" id="b4p-OV-EFf"/>
                     </constraints>
                 </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aI3-vx-nyR">
+                    <rect key="frame" x="0.0" y="316" width="414" height="26.5"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="LSa-uR-oXx" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Ap3-0h-uwC"/>
+                <constraint firstItem="aI3-vx-nyR" firstAttribute="top" secondItem="LSa-uR-oXx" secondAttribute="bottom" constant="16" id="IBT-6z-qfq"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aI3-vx-nyR" secondAttribute="trailing" id="QzK-IM-1ie"/>
+                <constraint firstItem="aI3-vx-nyR" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="RZ9-7Y-52q"/>
                 <constraint firstItem="LSa-uR-oXx" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="kxf-7y-GVf"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LSa-uR-oXx" secondAttribute="trailing" id="tPw-cj-bHc"/>
             </constraints>
