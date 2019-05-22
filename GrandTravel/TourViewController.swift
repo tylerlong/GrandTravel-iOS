@@ -10,11 +10,19 @@ import UIKit
 
 class TourViewController: UIViewController {
 
+    @IBOutlet weak var label: UILabel!
+    var text: String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.label.text = self.text ?? "Default"
         // Do any additional setup after loading the view.
     }
-
+    
+    func setLabel(text: String) {
+        self.text = text
+    }
 
     /*
     // MARK: - Navigation

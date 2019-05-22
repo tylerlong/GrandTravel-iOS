@@ -15,7 +15,9 @@ class ViewController3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let view1 = TourViewController().view!
+        let tc = TourViewController()
+        tc.setLabel(text: "Tour #1")
+        let view1 = tc.view!
         let view2 = TourViewController().view!
         let view3 = TourViewController().view!
         let view4 = TourViewController().view!
