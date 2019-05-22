@@ -10,16 +10,16 @@ import UIKit
 
 class TourViewController: UIViewController {
 
-    @IBOutlet weak var label: UILabel!
-    var text: String?
+    @IBOutlet weak var imageView: UIImageView!
+    var imageName: String?
     
-    init(text: String) {
-        self.text = text
+    init(imageName: String) {
+        self.imageName = imageName
         super.init(nibName: nil, bundle: nil)
     }
     
     convenience init() {
-        self.init(text: "Default")
+        self.init(imageName: "tours-img-1")
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -29,8 +29,9 @@ class TourViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        imageView.image = UIImage(named: imageName!)
         
-        self.label.text = self.text
+//        self.label.text = self.text
         // Do any additional setup after loading the view.
     }
 
