@@ -13,15 +13,25 @@ class TourViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     var text: String?
     
+    init(text: String) {
+        self.text = text
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    convenience init() {
+        self.init(text: "Default")
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+    }
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.label.text = self.text ?? "Default"
+        self.label.text = self.text
         // Do any additional setup after loading the view.
-    }
-    
-    func setLabel(text: String) {
-        self.text = text
     }
 
     /*

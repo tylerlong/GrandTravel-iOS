@@ -15,12 +15,10 @@ class ViewController3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let tc = TourViewController()
-        tc.setLabel(text: "Tour #1")
-        let view1 = tc.view!
-        let view2 = TourViewController().view!
-        let view3 = TourViewController().view!
-        let view4 = TourViewController().view!
+        let view1 = TourViewController(text: "Tour #1").view!
+        let view2 = TourViewController(text: "Tour #2").view!
+        let view3 = TourViewController(text: "Tour #3").view!
+        let view4 = TourViewController(text: "Tour #4").view!
         NSLayoutConstraint.activate([
             view1.heightAnchor.constraint(equalToConstant: 256),
             view2.heightAnchor.constraint(equalToConstant: 256),
