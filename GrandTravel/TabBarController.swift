@@ -29,7 +29,7 @@ class TabBarController: UITabBarController, DimeloDelegate, UITabBarControllerDe
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.tabBar.barTintColor = UIColor(hex: "#56C9FFFF")
+//        self.tabBar.barTintColor = UIColor(hex: "#56C9FFFF")
         
         let viewController1 = ViewController1()
         viewController1.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "Home"), selectedImage: UIImage(named: "Home"))
