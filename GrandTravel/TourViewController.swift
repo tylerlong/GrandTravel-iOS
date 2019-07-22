@@ -3,7 +3,7 @@
 //  GrandTravel
 //
 //  Created by Tyler Liu on 5/21/19.
-//  Copyright © 2019 RingCentral. All rights reserved.
+//  Copyright © 2019 CHUNTAO LIU. All rights reserved.
 //
 
 import UIKit

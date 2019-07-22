@@ -3,7 +3,7 @@
 //  GrandTravel
 //
 //  Created by Tyler Liu on 5/20/19.
-//  Copyright © 2019 RingCentral. All rights reserved.
+//  Copyright © 2019 CHUNTAO LIU. All rights reserved.
 //
 
 import UIKit
@@ -45,6 +45,7 @@ class TabBarController: UITabBarController, DimeloDelegate, UITabBarControllerDe
         let keys = GrandTravelKeys()
         dimelo = Dimelo(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)!
         dimelo?.developmentAPNS = true
+        dimelo?.userIdentifier = UIDevice.current.identifierForVendor?.uuidString
         let viewController5 = dimelo!.chatViewController()!
         viewController5.tabBarItem = UITabBarItem(title: "Chat", image: UIImage(named: "Chat"), selectedImage: UIImage(named: "Chat"))
 
