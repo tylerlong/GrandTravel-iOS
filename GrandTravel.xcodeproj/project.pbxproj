@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8759395322E7736000DD45C6 /* GrandTravel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrandTravel.entitlements; sourceTree = "<group>"; };
 		875C903E22932DAC00B12A8A /* GrandTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C904122932DAC00B12A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875C904622932DAC00B12A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -100,6 +101,7 @@
 		875C904022932DAC00B12A8A /* GrandTravel */ = {
 			isa = PBXGroup;
 			children = (
+				8759395322E7736000DD45C6 /* GrandTravel.entitlements */,
 				875C904122932DAC00B12A8A /* AppDelegate.swift */,
 				875C904522932DAC00B12A8A /* Main.storyboard */,
 				875C904822932DAD00B12A8A /* Assets.xcassets */,
@@ -156,6 +158,11 @@
 				TargetAttributes = {
 					875C903D22932DAC00B12A8A = {
 						CreatedOnToolsVersion = 10.2.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -429,6 +436,7 @@
 			baseConfigurationReference = D64F1E829E1E035656FFB7C0 /* Pods-GrandTravel.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GrandTravel/GrandTravel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BCG74V2WCD;
@@ -450,6 +458,7 @@
 			baseConfigurationReference = D2A9FA1DCEE16323B2F8A875 /* Pods-GrandTravel.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GrandTravel/GrandTravel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BCG74V2WCD;
