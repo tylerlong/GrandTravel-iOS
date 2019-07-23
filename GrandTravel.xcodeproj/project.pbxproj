@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8759395522E7C75C00DD45C6 /* DimeloConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8759395422E7C75C00DD45C6 /* DimeloConfig.plist */; };
 		875C904222932DAC00B12A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C904122932DAC00B12A8A /* AppDelegate.swift */; };
 		875C904722932DAC00B12A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875C904522932DAC00B12A8A /* Main.storyboard */; };
 		875C904922932DAD00B12A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875C904822932DAD00B12A8A /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		8759395322E7736000DD45C6 /* GrandTravel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrandTravel.entitlements; sourceTree = "<group>"; };
+		8759395422E7C75C00DD45C6 /* DimeloConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DimeloConfig.plist; sourceTree = SOURCE_ROOT; };
 		875C903E22932DAC00B12A8A /* GrandTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C904122932DAC00B12A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		875C904622932DAC00B12A8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 		875C904022932DAC00B12A8A /* GrandTravel */ = {
 			isa = PBXGroup;
 			children = (
+				8759395422E7C75C00DD45C6 /* DimeloConfig.plist */,
 				8759395322E7736000DD45C6 /* GrandTravel.entitlements */,
 				875C904122932DAC00B12A8A /* AppDelegate.swift */,
 				875C904522932DAC00B12A8A /* Main.storyboard */,
@@ -195,6 +198,7 @@
 				875C905822932F5300B12A8A /* ViewController1.xib in Resources */,
 				875C904C22932DAD00B12A8A /* LaunchScreen.storyboard in Resources */,
 				875C90642293936D00B12A8A /* ViewController4.xib in Resources */,
+				8759395522E7C75C00DD45C6 /* DimeloConfig.plist in Resources */,
 				875C904922932DAD00B12A8A /* Assets.xcassets in Resources */,
 				875C904722932DAC00B12A8A /* Main.storyboard in Resources */,
 			);

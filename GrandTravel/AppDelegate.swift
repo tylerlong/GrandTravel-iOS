@@ -8,26 +8,40 @@
 
 import UIKit
 import Dimelo
+import Keys
+
+public var sharedDimelo: Dimelo = Dimelo.sharedInstance()
 
 @UIApplicationMain
-class AppDelegate: UIResponder, UIApplicationDelegate {
+class AppDelegate: UIResponder, UIApplicationDelegate, DimeloDelegate {
+    func dimeloDisplayChatViewController(_ dimelo: Dimelo!) {
+        
+    }
+    
 
     var window: UIWindow?
     
     func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        Dimelo.sharedInstance()?.deviceToken = deviceToken
+        sharedDimelo.deviceToken = deviceToken
     }
 
     func application(_ application: UIApplication, handleActionWithIdentifier identifier: String?, forRemoteNotification userInfo: [AnyHashable : Any], withResponseInfo responseInfo: [AnyHashable : Any], completionHandler: @escaping () -> Void) {
-        Dimelo.sharedInstance()?.handleRemoteNotification(withIdentifier: identifier, responseInfo: responseInfo)
+        sharedDimelo.handleRemoteNotification(withIdentifier: identifier, responseInfo: responseInfo)
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
-        Dimelo.sharedInstance()?.consumeReceivedRemoteNotification(userInfo)
+        sharedDimelo.consumeReceivedRemoteNotification(userInfo)
     }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let keys = GrandTravelKeys()
+//        let dimelo = Dimelo.sharedInstance()!
+        sharedDimelo = Dimelo(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)
+//        Dimelo.init(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)
+        sharedDimelo.developmentAPNS = true
+        sharedDimelo.userIdentifier = UIDevice.current.identifierForVendor?.uuidString
+        sharedDimelo.authenticationInfo = ["bankBranch": "Test-5678"]
         return true
     }
 
