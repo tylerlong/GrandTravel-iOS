@@ -15,7 +15,8 @@ public var sharedDimelo: Dimelo = Dimelo.sharedInstance()
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate, DimeloDelegate {
     func dimeloDisplayChatViewController(_ dimelo: Dimelo!) {
-        
+        let tvc = self.window?.rootViewController as! TabBarController
+        tvc.selectedIndex = tvc.tabBar.items!.count - 1
     }
 
     var window: UIWindow?
