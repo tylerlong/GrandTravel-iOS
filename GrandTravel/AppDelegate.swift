@@ -17,7 +17,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate, DimeloDelegate {
     func dimeloDisplayChatViewController(_ dimelo: Dimelo!) {
         
     }
-    
 
     var window: UIWindow?
     
@@ -36,9 +35,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, DimeloDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let keys = GrandTravelKeys()
-//        let dimelo = Dimelo.sharedInstance()!
         sharedDimelo = Dimelo(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)
-//        Dimelo.init(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)
         sharedDimelo.developmentAPNS = true
         sharedDimelo.userIdentifier = UIDevice.current.identifierForVendor?.uuidString
         sharedDimelo.authenticationInfo = ["bankBranch": "Test-5678"]
@@ -66,7 +63,4 @@ class AppDelegate: UIResponder, UIApplicationDelegate, DimeloDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
-
 }
-

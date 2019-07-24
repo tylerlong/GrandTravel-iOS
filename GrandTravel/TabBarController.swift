@@ -7,16 +7,9 @@
 //
 
 import UIKit
-import Dimelo
 
 
 class TabBarController: UITabBarController, UITabBarControllerDelegate {
-    
-    var dimelo: Dimelo?
-
-//    func dimeloDisplayChatViewController(_ dimelo: Dimelo!) {
-//        self.selectedIndex = tabBar.items!.count - 1
-//    }
 
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController)
     {
@@ -31,8 +24,6 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         
         self.delegate = self
         
-//        self.tabBar.barTintColor = UIColor(hex: "#56C9FFFF")
-        
         let viewController1 = ViewController1()
         viewController1.tabBarItem = UITabBarItem(title: "Home", image: UIImage(named: "Home"), selectedImage: UIImage(named: "Home"))
         let viewController2 = ViewController2()
@@ -41,11 +32,6 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         viewController3.tabBarItem = UITabBarItem(title: "Tours", image: UIImage(named: "Tours"), selectedImage: UIImage(named: "Tours"))
         let viewController4 = ViewController4()
         viewController4.tabBarItem = UITabBarItem(title: "Contact", image: UIImage(named: "Contact"), selectedImage: UIImage(named: "Contact"))
-        
-        
-//        dimelo = Dimelo(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)!
-//        let dimelo = Dimelo.sharedInstance()!
-//        Dimelo.init(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)
        
         let viewController5 = sharedDimelo.chatViewController()!
         viewController5.tabBarItem = UITabBarItem(title: "Chat", image: UIImage(named: "Chat"), selectedImage: UIImage(named: "Chat"))
