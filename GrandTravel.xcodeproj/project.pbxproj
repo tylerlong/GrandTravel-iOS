@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87370CD122F0F71D0095DD14 /* GrandTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87370CD022F0F71D0095DD14 /* GrandTravelUITests.swift */; };
 		875C904222932DAC00B12A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C904122932DAC00B12A8A /* AppDelegate.swift */; };
 		875C904722932DAC00B12A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875C904522932DAC00B12A8A /* Main.storyboard */; };
 		875C904922932DAD00B12A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875C904822932DAD00B12A8A /* Assets.xcassets */; };
@@ -26,7 +27,20 @@
 		B25F3292887DE50AEAF4D3CB /* Pods_GrandTravel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30DD5171532E3ABC568496B /* Pods_GrandTravel.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		87370CD322F0F71D0095DD14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 875C903622932DAC00B12A8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 875C903D22932DAC00B12A8A;
+			remoteInfo = GrandTravel;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		87370CCE22F0F71D0095DD14 /* GrandTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrandTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87370CD022F0F71D0095DD14 /* GrandTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandTravelUITests.swift; sourceTree = "<group>"; };
+		87370CD222F0F71D0095DD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8759395322E7736000DD45C6 /* GrandTravel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrandTravel.entitlements; sourceTree = "<group>"; };
 		875C903E22932DAC00B12A8A /* GrandTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C904122932DAC00B12A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -52,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		87370CCB22F0F71D0095DD14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		875C903B22932DAC00B12A8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -80,10 +101,20 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		87370CCF22F0F71D0095DD14 /* GrandTravelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87370CD022F0F71D0095DD14 /* GrandTravelUITests.swift */,
+				87370CD222F0F71D0095DD14 /* Info.plist */,
+			);
+			path = GrandTravelUITests;
+			sourceTree = "<group>";
+		};
 		875C903522932DAC00B12A8A = {
 			isa = PBXGroup;
 			children = (
 				875C904022932DAC00B12A8A /* GrandTravel */,
+				87370CCF22F0F71D0095DD14 /* GrandTravelUITests */,
 				875C903F22932DAC00B12A8A /* Products */,
 				4398B4A30FC0569BD37C0752 /* Pods */,
 				1B4614D1C6E715124949024F /* Frameworks */,
@@ -94,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				875C903E22932DAC00B12A8A /* GrandTravel.app */,
+				87370CCE22F0F71D0095DD14 /* GrandTravelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -126,6 +158,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		87370CCD22F0F71D0095DD14 /* GrandTravelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87370CD722F0F71D0095DD14 /* Build configuration list for PBXNativeTarget "GrandTravelUITests" */;
+			buildPhases = (
+				87370CCA22F0F71D0095DD14 /* Sources */,
+				87370CCB22F0F71D0095DD14 /* Frameworks */,
+				87370CCC22F0F71D0095DD14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87370CD422F0F71D0095DD14 /* PBXTargetDependency */,
+			);
+			name = GrandTravelUITests;
+			productName = GrandTravelUITests;
+			productReference = 87370CCE22F0F71D0095DD14 /* GrandTravelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		875C903D22932DAC00B12A8A /* GrandTravel */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 875C905022932DAD00B12A8A /* Build configuration list for PBXNativeTarget "GrandTravel" */;
@@ -156,6 +206,10 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "CHUNTAO LIU";
 				TargetAttributes = {
+					87370CCD22F0F71D0095DD14 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 875C903D22932DAC00B12A8A;
+					};
 					875C903D22932DAC00B12A8A = {
 						CreatedOnToolsVersion = 10.2.1;
 						SystemCapabilities = {
@@ -180,11 +234,19 @@
 			projectRoot = "";
 			targets = (
 				875C903D22932DAC00B12A8A /* GrandTravel */,
+				87370CCD22F0F71D0095DD14 /* GrandTravelUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		87370CCC22F0F71D0095DD14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		875C903C22932DAC00B12A8A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -278,6 +340,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		87370CCA22F0F71D0095DD14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87370CD122F0F71D0095DD14 /* GrandTravelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		875C903A22932DAC00B12A8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -294,6 +364,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87370CD422F0F71D0095DD14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 875C903D22932DAC00B12A8A /* GrandTravel */;
+			targetProxy = 87370CD322F0F71D0095DD14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		875C904522932DAC00B12A8A /* Main.storyboard */ = {
@@ -315,6 +393,44 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		87370CD522F0F71D0095DD14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCG74V2WCD;
+				INFOPLIST_FILE = GrandTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringcentral.GrandTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrandTravel;
+			};
+			name = Debug;
+		};
+		87370CD622F0F71D0095DD14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCG74V2WCD;
+				INFOPLIST_FILE = GrandTravelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ringcentral.GrandTravelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GrandTravel;
+			};
+			name = Release;
+		};
 		875C904E22932DAD00B12A8A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -478,6 +594,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		87370CD722F0F71D0095DD14 /* Build configuration list for PBXNativeTarget "GrandTravelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87370CD522F0F71D0095DD14 /* Debug */,
+				87370CD622F0F71D0095DD14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		875C903922932DAC00B12A8A /* Build configuration list for PBXProject "GrandTravel" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
