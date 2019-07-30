@@ -17,7 +17,7 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>3</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>
@@ -41,5 +41,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>To send a picture to a support team.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>To Send location to a support team.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>To Send location to a support team.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>To send a picture to a support team.</string>
 </dict>
 </plist>
