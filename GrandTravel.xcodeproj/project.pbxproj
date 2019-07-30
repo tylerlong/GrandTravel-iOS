@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		87370CD122F0F71D0095DD14 /* GrandTravelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87370CD022F0F71D0095DD14 /* GrandTravelUITests.swift */; };
+		87370CD922F0FA0A0095DD14 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87370CD822F0FA090095DD14 /* SnapshotHelper.swift */; };
 		875C904222932DAC00B12A8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875C904122932DAC00B12A8A /* AppDelegate.swift */; };
 		875C904722932DAC00B12A8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 875C904522932DAC00B12A8A /* Main.storyboard */; };
 		875C904922932DAD00B12A8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 875C904822932DAD00B12A8A /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		87370CCE22F0F71D0095DD14 /* GrandTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrandTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		87370CD022F0F71D0095DD14 /* GrandTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrandTravelUITests.swift; sourceTree = "<group>"; };
 		87370CD222F0F71D0095DD14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87370CD822F0FA090095DD14 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
 		8759395322E7736000DD45C6 /* GrandTravel.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GrandTravel.entitlements; sourceTree = "<group>"; };
 		875C903E22932DAC00B12A8A /* GrandTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		875C904122932DAC00B12A8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		87370CCF22F0F71D0095DD14 /* GrandTravelUITests */ = {
 			isa = PBXGroup;
 			children = (
+				87370CD822F0FA090095DD14 /* SnapshotHelper.swift */,
 				87370CD022F0F71D0095DD14 /* GrandTravelUITests.swift */,
 				87370CD222F0F71D0095DD14 /* Info.plist */,
 			);
@@ -345,6 +348,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				87370CD122F0F71D0095DD14 /* GrandTravelUITests.swift in Sources */,
+				87370CD922F0FA0A0095DD14 /* SnapshotHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

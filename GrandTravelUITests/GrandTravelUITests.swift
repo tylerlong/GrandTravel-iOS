@@ -20,6 +20,10 @@ class GrandTravelUITests: XCTestCase {
         XCUIApplication().launch()
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
+        
+        let app = XCUIApplication()
+        setupSnapshot(app)
+        app.launch()
     }
 
     override func tearDown() {
@@ -27,6 +31,18 @@ class GrandTravelUITests: XCTestCase {
     }
 
     func testExample() {
+        
+        let tabBarsQuery = XCUIApplication().tabBars
+        tabBarsQuery.buttons["Home"].tap()
+        snapshot("01Home")
+        tabBarsQuery.buttons["About"].tap()
+        snapshot("02About")
+        tabBarsQuery.buttons["Tours"].tap()
+        snapshot("03Tours")
+        tabBarsQuery.buttons["Contact"].tap()
+        snapshot("04Contact")
+        tabBarsQuery.buttons["Chat"].tap()
+        snapshot("05Chat")
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
