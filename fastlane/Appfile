@@ -1,0 +1,8 @@
+app_identifier("com.chuntaoliu.GrandTravel") # The bundle identifier of your app
+apple_id("chuntao.liu.0118@gmail.com") # Your Apple email address
+
+itc_team_id("120253574") # App Store Connect Team ID
+team_id("BCG74V2WCD") # Developer Portal Team ID
+
+# For more information about the Appfile, see:
+#     https://docs.fastlane.tools/advanced/#appfile
