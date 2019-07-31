@@ -1,1 +1,1 @@
-
+A simple app for Travelling. You get basic information about GrandTravel, including the service we provide and methods to contact us.
