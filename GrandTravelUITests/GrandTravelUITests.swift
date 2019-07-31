@@ -41,8 +41,6 @@ class GrandTravelUITests: XCTestCase {
         snapshot("03Tours")
         tabBarsQuery.buttons["Contact"].tap()
         snapshot("04Contact")
-        tabBarsQuery.buttons["Chat"].tap()
-        snapshot("05Chat")
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
