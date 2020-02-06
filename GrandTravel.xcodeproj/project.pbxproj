@@ -543,6 +543,7 @@
 				CODE_SIGN_ENTITLEMENTS = GrandTravel/GrandTravel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = BCG74V2WCD;
 				INFOPLIST_FILE = GrandTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,6 +566,7 @@
 				CODE_SIGN_ENTITLEMENTS = GrandTravel/GrandTravel.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
 				DEVELOPMENT_TEAM = BCG74V2WCD;
 				INFOPLIST_FILE = GrandTravel/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
