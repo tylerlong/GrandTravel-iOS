@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina6_1" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,36 +22,36 @@
                     <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kl7-eU-3Sk">
-                    <rect key="frame" x="0.0" y="108" width="414" height="25.5"/>
+                    <rect key="frame" x="0.0" y="60" width="414" height="23"/>
                     <string key="text">A BRIEF HISTORY OF GRAND TRAVEL
 GRAND TRAVEL</string>
-                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="21"/>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="19"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Kw-Xm-qd6">
-                    <rect key="frame" x="64" y="197.5" width="342" height="95.5"/>
+                    <rect key="frame" x="16" y="99" width="390" height="95.5"/>
                     <string key="text">Grand Travel was founded in 1981 in Belmont, CA with the mission of providing a better travel experience at unbeatable prices to its customers.</string>
                     <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="12" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GaK-zg-T5d">
-                    <rect key="frame" x="64" y="325" width="342" height="203"/>
+                    <rect key="frame" x="16" y="210.5" width="390" height="183"/>
                     <string key="text">Steve Howe and Bruce Dickinson, Grand Travel’s founders and avid travelers, recognized the challenges associated with the increasing complexity of travel and its impact on the recreational traveler. They also recognized that a proactive approach to travel management was the only true way to minimize any potential disruptions to a travelers itinerary. A hands on boutique travel service was born.</string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aVv-Nw-OfW">
-                    <rect key="frame" x="64" y="560" width="350" height="101.5"/>
+                    <rect key="frame" x="16" y="409.5" width="398" height="81.5"/>
                     <string key="text">While Grand Travel has grown to over 500 employees, it continues to offer the same level of personalized proactive services Steve and Bruce offered when the company was founded.</string>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Customers first …. ALWAYS!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIy-NE-tM3">
-                    <rect key="frame" x="64" y="693.5" width="350" height="21.5"/>
+                    <rect key="frame" x="16" y="507" width="398" height="21.5"/>
                     <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
@@ -61,13 +59,13 @@ GRAND TRAVEL</string>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="3Kw-Xm-qd6" firstAttribute="top" secondItem="kl7-eU-3Sk" secondAttribute="bottom" constant="64" id="08c-Fm-T8S"/>
+                <constraint firstItem="3Kw-Xm-qd6" firstAttribute="top" secondItem="kl7-eU-3Sk" secondAttribute="bottom" constant="16" id="08c-Fm-T8S"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="LIy-NE-tM3" secondAttribute="trailing" id="37j-mF-5OB"/>
-                <constraint firstItem="LIy-NE-tM3" firstAttribute="top" secondItem="aVv-Nw-OfW" secondAttribute="bottom" constant="32" id="41x-0Y-rA9"/>
+                <constraint firstItem="LIy-NE-tM3" firstAttribute="top" secondItem="aVv-Nw-OfW" secondAttribute="bottom" constant="16" id="41x-0Y-rA9"/>
                 <constraint firstItem="LIy-NE-tM3" firstAttribute="leading" secondItem="GaK-zg-T5d" secondAttribute="leading" id="7iZ-Ta-8Wm"/>
-                <constraint firstItem="kl7-eU-3Sk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="64" id="7tN-k7-FDL"/>
+                <constraint firstItem="kl7-eU-3Sk" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="16" id="7tN-k7-FDL"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="VXu-aP-SgA" secondAttribute="trailing" id="CoJ-xJ-SqL"/>
-                <constraint firstItem="GaK-zg-T5d" firstAttribute="top" secondItem="3Kw-Xm-qd6" secondAttribute="bottom" constant="32" id="F4p-3O-Z3W"/>
+                <constraint firstItem="GaK-zg-T5d" firstAttribute="top" secondItem="3Kw-Xm-qd6" secondAttribute="bottom" constant="16" id="F4p-3O-Z3W"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="VXu-aP-SgA" secondAttribute="bottom" id="F5U-Xb-ctm"/>
                 <constraint firstItem="VXu-aP-SgA" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="Np3-Jn-Lkk"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="3Kw-Xm-qd6" secondAttribute="trailing" constant="8" id="OM9-rg-zYf"/>
@@ -77,9 +75,9 @@ GRAND TRAVEL</string>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="GaK-zg-T5d" secondAttribute="trailing" constant="8" id="iMR-gm-ht8"/>
                 <constraint firstItem="aVv-Nw-OfW" firstAttribute="leading" secondItem="GaK-zg-T5d" secondAttribute="leading" id="osF-yR-EIS"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="aVv-Nw-OfW" secondAttribute="trailing" id="p2p-PM-vis"/>
-                <constraint firstItem="GaK-zg-T5d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="64" id="pKB-Nt-EJi"/>
-                <constraint firstItem="3Kw-Xm-qd6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="64" id="we8-ql-7l4"/>
-                <constraint firstItem="aVv-Nw-OfW" firstAttribute="top" secondItem="GaK-zg-T5d" secondAttribute="bottom" constant="32" id="zYu-O0-Oxl"/>
+                <constraint firstItem="GaK-zg-T5d" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="pKB-Nt-EJi"/>
+                <constraint firstItem="3Kw-Xm-qd6" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="we8-ql-7l4"/>
+                <constraint firstItem="aVv-Nw-OfW" firstAttribute="top" secondItem="GaK-zg-T5d" secondAttribute="bottom" constant="16" id="zYu-O0-Oxl"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
