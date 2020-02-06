@@ -274,18 +274,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GrandTravel/Pods-GrandTravel-frameworks.sh",
-				"${PODS_ROOT}/Dimelo-iOS/Dimelo.framework",
-				"${BUILT_PRODUCTS_DIR}/Keys/Keys.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GrandTravel/Pods-GrandTravel-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Dimelo.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Keys.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-GrandTravel/Pods-GrandTravel-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -298,20 +291,11 @@
 			files = (
 			);
 			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GrandTravel/Pods-GrandTravel-resources.sh",
-				"${PODS_ROOT}/Dimelo-iOS/Dimelo/Dimelo.bundle",
-				"${PODS_ROOT}/Dimelo-iOS/Dimelo/DimeloChatInputAccessoryView.xib",
-				"${PODS_ROOT}/Dimelo-iOS/Dimelo/DimeloChatNotificationContentView.xib",
+				"${PODS_ROOT}/Target Support Files/Pods-GrandTravel/Pods-GrandTravel-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Dimelo.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DimeloChatInputAccessoryView.nib",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/DimeloChatNotificationContentView.nib",
+				"${PODS_ROOT}/Target Support Files/Pods-GrandTravel/Pods-GrandTravel-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

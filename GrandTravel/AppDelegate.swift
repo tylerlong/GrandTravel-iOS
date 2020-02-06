@@ -36,7 +36,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, DimeloDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         let keys = GrandTravelKeys()
-        sharedDimelo = Dimelo(apiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)
+        sharedDimelo.initialize(withApiSecret: keys.dimeloApiSecret, domainName: keys.dimeloDomainName, delegate: self)
         sharedDimelo.developmentAPNS = true
         sharedDimelo.userIdentifier = UIDevice.current.identifierForVendor?.uuidString
         sharedDimelo.authenticationInfo = ["bankBranch": "Test-5678"]
