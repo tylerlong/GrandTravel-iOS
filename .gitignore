@@ -1,3 +1,7 @@
 Pods/
 xcuserdata/
 fastlane/screenshots/
+*.zip
+*.ipa
+report.xml
+Preview.xml

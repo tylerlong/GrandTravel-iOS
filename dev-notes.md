@@ -9,5 +9,5 @@ fastlane snapshot
 ## Publish
 
 ```
-fastlane deliver
+fastlane release
 ```
