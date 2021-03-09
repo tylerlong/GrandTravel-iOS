@@ -26,7 +26,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, DimeloDelegate {
     }
 
     func application(_ application: UIApplication, handleActionWithIdentifier identifier: String?, forRemoteNotification userInfo: [AnyHashable : Any], withResponseInfo responseInfo: [AnyHashable : Any], completionHandler: @escaping () -> Void) {
-        sharedDimelo.handleRemoteNotification(withIdentifier: identifier, responseInfo: responseInfo)
+        sharedDimelo.handleRemoteNotification(withIdentifier: identifier, responseInfo: responseInfo, userInfo: userInfo)
     }
     
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {

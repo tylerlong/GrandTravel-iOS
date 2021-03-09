@@ -1,5 +1,5 @@
 PODS:
-  - Dimelo-iOS (1.9.4)
+  - Dimelo-iOS (2.2.0)
   - Keys (1.0.1)
 
 DEPENDENCIES:
@@ -14,13 +14,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Dimelo-iOS:
-    :commit: ff1634ba94d94b6778bfc9ca5f13ed25061b9c97
+    :commit: ea5a038558c69c9fb2b534f2f818cd2bc5b16e29
     :git: https://github.com/ringcentral/engage-digital-messaging-ios.git
 
 SPEC CHECKSUMS:
-  Dimelo-iOS: 1af58706b2041252db22f943d344655186976d26
+  Dimelo-iOS: 5a6fa6c038e4d05f12cb4eac2a7c9dc0939a5533
   Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
 
-PODFILE CHECKSUM: 64e067272cf005db26e9dd16c126c1d11c3afa8c
+PODFILE CHECKSUM: 65bd8b7401af666fdd3751cab25a6b907ddb8aa4
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.10.1
